@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient(circle, #07101f, #111828, #1a1f31, #23273a, #2c2e43);
+    height: 85vh;
+}
+main{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;   
+    height: 500px;
+    width: 300px;
+    margin-top: 100px;
+    background-color: #07101F;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px #050c18;
+}
+form{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.input, select{
+    border: hidden  ;
+    outline: none;
+    background-color: #07101F;
+    color:white;
+    text-align: center;
+    margin: 10px;
+    font-size: 16px;
+}
+::placeholder{
+    color: white;
+}
+#boton{
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #F94361;
+    color: white;
+    border: hidden;
+    cursor: pointer;
+}
+/* Eliminar el boton en el input */
+input::-webkit-inner-spin-button, select {
+  -webkit-appearance: none;
+}
+
