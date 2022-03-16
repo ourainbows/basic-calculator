@@ -1,7 +1,7 @@
 # basic-calculator
 Basic calculator made with HTML, CSS and JS
 
-## perations
+## Operations
 - Addition
 - Subtraction
 - Multiplication
